@@ -1,0 +1,50 @@
+## General Info
+
+This Project is a school assigment designed by Abdellah Hassani Sarah Bahhar.
+Date: 12/09/22
+
+Language: C
+
+## Algorithme_KNN
+
+Determines the price of an Airbnb apartment according to a certain number of characteristics such as the number of beds, we use the principle of the k nearest neighbor (KNN).
+
+##Installation
+
+//////
+
+##Contents
+
+#Source 
+
+FunctionCreatTable.h
+FunctionCreatTable.c
+
+FunctionAccommodation.h
+FunctionAccommodation.c
+
+main.c
+
+#bin
+
+FunctionCreatTable.o
+FunctionAccommodation.o
+main.o
+
+#data
+
+Data's files
+
+Determines the price according to the database with name : "airbnb_donnees_propre.csv"
+
+## Use
+
+make exe 
+
+## Make
+
+make : compile
+make exe :  compile execute
+make zip : compile and compress
+make clean : compile and remove bin file
+
